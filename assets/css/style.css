@@ -1,0 +1,14 @@
+.menu__link:hover{
+    color:blue;
+    }
+    .menu__link:focus{
+    padding-bottom:5px;
+    border-bottom:2px solid blue;
+    }
+    .bloc__text:hover{
+    font-size:1.6em;
+    cursor: zoom-in;
+    }
+    .bloc__text_hidden{
+    display: none;
+    }

@@ -1,0 +1,15 @@
+.photo-de-profil{
+    background-image: url("/assets/img/informatique.png");
+}
+.left-column{
+    grid-area: left-column;
+    padding: 50px;
+    background-color: #782221 ;
+    color: rgb(81, 43, 43);
+  }
+.fond-rouge {
+    grid-area: fond-rouge;
+    padding: 50px;
+    background-color: #782221 ;
+    color: rgb(81, 43, 43);
+  }
