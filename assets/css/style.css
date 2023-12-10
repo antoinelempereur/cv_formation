@@ -18,11 +18,13 @@ body{
   }
   .photo-de-profil{
     display: block;
-    background-image: url("../img/téléchargement.jpg");
     height: 70px;
     width: 70px;  
     border-radius: 50%;
     margin-top: 50px;
+  }
+  .photo-de-profil:hover{
+    cursor: zoom-in;
   }
   .nom-prenom{
    margin-top: 15px;
@@ -43,6 +45,9 @@ body{
   .info-perso{
     font-style: italic;
     margin: 0 30px;
+  }
+  .info-perso:hover{
+    text-decoration: underline;
   }
   .tableau{
     display: flex;
@@ -70,6 +75,7 @@ body{
 }
 .content{
   margin-left: 20px;
+  text-align: justify;
 }
 .titre-a-carré-rouge{
   padding: 0;
@@ -82,4 +88,37 @@ body{
 background-color: #782221;
 position: relative;
 content: "";
+}
+.liste-icone{
+  display: flex;
+  justify-content: center;
+  width: 100%;
+  margin: 10px 0;
+}
+.icone{
+  margin: 0 10px;
+  height: 20px;
+  width: 20px;
+}
+.icone:hover{
+  opacity: 0.5;
+}
+a{
+  color: #fff;
+  text-decoration: none;
+}
+.cv-items:hover::after{
+  margin-left: 10px;
+  display: inline-block;
+  height: 14px;
+  width: 5px;
+background-color: #782221;
+position: relative;
+content: "";
+}
+footer{
+  margin-bottom: 15px;
+}
+.indente{
+  text-indent: 30px;
 }
